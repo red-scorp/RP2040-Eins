@@ -2652,7 +2652,7 @@
     (uuid fb2a5a58-724c-41cb-8b5c-60a78402fc50)
   )
 
-  (text "USB protection" (at 57.15 162.56 0)
+  (text "USB protection" (at 60.96 162.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03bdc120-786f-4d6e-a669-52ebb46c3dc9)
   )
@@ -2668,7 +2668,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 23ccdb6a-40d3-4f01-9d80-2ac2404fec42)
   )
-  (text "Power source selection" (at 72.39 130.81 0)
+  (text "Power source selection" (at 72.39 128.27 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2409c905-9c8b-48a4-a3a2-36d7f7bb6fda)
   )
@@ -3472,10 +3472,10 @@
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" (at 67.564 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5f17df35-e16e-4914-ae1e-a2fad086d7f0))
-    (pin "2" (uuid 2b467c3d-7bc0-4e69-bdb1-835cdb54c6b1))
-    (pin "3" (uuid 4ae36f92-63c8-4f64-9654-5a4bace0ef0b))
-    (pin "4" (uuid f7b079c8-579e-413d-a452-ac617bd8155a))
+    (pin "1" (uuid 114884d0-797b-452c-aeb8-108b1a49fd47))
+    (pin "2" (uuid 2ae1de0a-854a-49d9-bf53-a1b015cff834))
+    (pin "3" (uuid 46ac68e7-60a6-4440-818f-4abed5226923))
+    (pin "4" (uuid 30aba312-5c6c-49d9-aad1-c40e726907c4))
     (instances
       (project "RP2040-Eins"
         (path "/9a38a81c-7302-494f-9784-2ab4342a0a1d"
@@ -3829,8 +3829,8 @@
     (property "Datasheet" "~" (at 36.83 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7a108bd4-4978-4202-802b-c25a4c6f5e9c))
-    (pin "2" (uuid 0c50927e-3f11-425e-b686-907e0b92d7a8))
+    (pin "1" (uuid 9c3cf89b-be58-4338-a383-73b06e582666))
+    (pin "2" (uuid d8d9d0b2-7c55-4f46-aff5-ea845ba63f76))
     (instances
       (project "RP2040-Eins"
         (path "/9a38a81c-7302-494f-9784-2ab4342a0a1d"
@@ -4629,8 +4629,8 @@
     (property "Datasheet" "~" (at 27.94 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f2acdc30-dbe5-4145-bee9-4531bb674e1d))
-    (pin "2" (uuid eb411def-2577-4ef5-a796-e6563b0292e6))
+    (pin "1" (uuid 5de6bc07-d10f-4d0f-bb22-e9557fb57448))
+    (pin "2" (uuid e769229b-13f3-47d8-9d04-059ac19b6bc7))
     (instances
       (project "RP2040-Eins"
         (path "/9a38a81c-7302-494f-9784-2ab4342a0a1d"
@@ -6081,7 +6081,7 @@
     (property "Datasheet" "" (at 36.83 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 496b5c3d-afdc-464c-80a4-21739b7e4218))
+    (pin "1" (uuid df785519-f192-400d-9e68-cb41dff063d8))
     (instances
       (project "RP2040-Eins"
         (path "/9a38a81c-7302-494f-9784-2ab4342a0a1d"
