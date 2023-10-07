@@ -24,7 +24,7 @@ Preview:
 
 You can view the [Schematics in PDF format](doc/RP2040-Eins.pdf) for detailed information.
 
-STEP 3D files are available [with pins](doc/RP2040-Eins-with-pins.step) and [without pins](doc/RP2040-Eins-board.step).
+STEP 3D file is available [with pins](doc/RP2040-Eins.step).
 
 Features:
 

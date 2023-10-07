@@ -493,7 +493,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "doc/RP2040-Eins.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
