@@ -6,7 +6,7 @@
 
   (title_block
     (title "RP2040-Eins-0010")
-    (date "2023-10-07")
+    (date "2023-10-15")
     (rev "1.0")
     (company "(c) 2023 Andriy Golovnya")
     (comment 1 "RP2040 based board with Arduino Uno footprint")
