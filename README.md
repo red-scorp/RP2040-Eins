@@ -42,6 +42,14 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
+### v1.0b2
+
+![v1.0b2 board preview](img/v1.0b2.png)
+
+- Added MOSFETs for RGB LED.
+- Moved few components around.
+- Added QR code to the back of the board.
+
 ### v1.0b1
 
 ![v1.0b1 board preview](img/v1.0b1.png)
