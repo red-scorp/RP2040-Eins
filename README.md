@@ -10,11 +10,13 @@
 
 # RP2040-Eins Project
 
-The RP2040-Eins project aims to create a replacement for the Arduino UNO R3 using the RP2040 MCU.
+The **RP2040-Eins** project aims to create a replacement for the Arduino UNO R3 or Arduino M0 using the RP2040 MCU.
 
 ## RP2040-Eins Board
 
-The **RP2040-Eins** board is a 4-layer board designed to accommodate the popular Raspberry Pi RP2040 MCU in the commonly used, but obsolete, Arduino UNO R3 footprint.
+The **RP2040-Eins** board is a 4-layer design intended to accommodate the popular Raspberry Pi RP2040 MCU within the standard Arduino UNO R3 footprint.
+
+This board is crafted in Germany, and its name, "RP2040-Eins", incorporates the German word "Eins" (pronounced as "eye-ns"), which translates to "one". This name choice reflects the use of the same form-factor as the Arduino "Uno", which means "one" in Italian.
 
 Preview:
 
@@ -35,8 +37,8 @@ Features:
 - USB Type-C connector
 - JTAG debugging connector
 - LDO-based 5V and 3.3V power supply with a maximum 12V input
-- Supports both SOIC and WSON flash packages
-- Power, user and RGB LEDs
+- Supports both SOIC and WSON 16MB flash packages
+- Includes power, user and RGB LEDs
 
 CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
@@ -46,7 +48,9 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ![v1.0b2 board preview](img/v1.0b2.png)
 
-- Added MOSFETs for RGB LED.
+Second testing release.
+
+- Added MOSFETs for RGB LED to make it work similarly to user LED.
 - Moved few components around.
 - Added QR code to the back of the board.
 
