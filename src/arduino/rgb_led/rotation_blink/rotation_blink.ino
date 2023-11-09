@@ -13,6 +13,8 @@
 
 /* RGB LED pin numbers are defined in the rp2040 SDK as PIN_LED_R, PIN_LED_G and PIN_LED_B when you select RP2040-Eins as a target board */
 
+#define BLINK_PERIOD 1000 // Blink period in milliseconds
+
 void setup() {
   // Set the pin modes for the LEDs as outputs
   pinMode(PIN_LED_R, OUTPUT);
@@ -27,7 +29,7 @@ void loop() {
   digitalWrite(PIN_LED_B, LOW);
 
   // Wait for 1 second
-  delay(1000);
+  delay(BLINK_PERIOD);
 
   // Turn on the green LED and turn off the others
   digitalWrite(PIN_LED_R, LOW);
@@ -35,7 +37,7 @@ void loop() {
   digitalWrite(PIN_LED_B, LOW);
 
   // Wait for 1 second
-  delay(1000);
+  delay(BLINK_PERIOD);
 
   // Turn on the blue LED and turn off the others
   digitalWrite(PIN_LED_R, LOW);
@@ -43,5 +45,5 @@ void loop() {
   digitalWrite(PIN_LED_B, HIGH);
 
   // Wait for 1 second
-  delay(1000);
+  delay(BLINK_PERIOD);
 }
