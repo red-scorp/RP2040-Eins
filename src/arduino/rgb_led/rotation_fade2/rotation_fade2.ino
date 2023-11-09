@@ -16,25 +16,22 @@
 const int fadeDuration = 1000; // 1 second fade duration
 
 void setup() {
+  // Set the pin modes for the LEDs as outputs
   pinMode(PIN_LED_R, OUTPUT);
   pinMode(PIN_LED_G, OUTPUT);
   pinMode(PIN_LED_B, OUTPUT);
 }
 
 void loop() {
+  // Rotate the fade colors
   fadeLED(PIN_LED_R, PIN_LED_G);
   fadeLED(PIN_LED_G, PIN_LED_B);
   fadeLED(PIN_LED_B, PIN_LED_R);
 }
 
 void fadeLED(int fromPin, int toPin) {
+  // Fade on LED on and fade another LED off
   for (int brightness = 0; brightness <= 255; brightness++) {
-    analogWrite(fromPin, 255 - brightness);
-    analogWrite(toPin, brightness);
-    delay(fadeDuration / 255);
-  }
-
-  for (int brightness = 255; brightness >= 0; brightness--) {
     analogWrite(fromPin, 255 - brightness);
     analogWrite(toPin, brightness);
     delay(fadeDuration / 255);
