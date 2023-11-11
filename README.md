@@ -64,9 +64,9 @@ Initial release for testing purposes.
 
 Following code examples are available:
 
-- src/arduino/rgb_led/rotation_blink.ino - blinks RGB LED in rotation individually
-- src/arduino/rgb_led/rotation_fade.ino - fades RGB LED in rotation individually
-- src/arduino/rgb_led/rotation_fade2.ino - fades RGB LED in rotation from one color to another
+- ``src/arduino/rgb_led/rotation_blink.ino`` - blinks RGB LED in rotation individually
+- ``src/arduino/rgb_led/rotation_fade.ino`` - fades RGB LED in rotation individually
+- ``src/arduino/rgb_led/rotation_fade2.ino`` - fades RGB LED in rotation from one color to another
 
 Please use latest official version of [earlephilhower/arduino-pico](https://github.com/earlephilhower/arduino-pico) and select "RP2040-Eins" board as a target.
 
