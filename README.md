@@ -44,6 +44,20 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
+### v1.0b3
+
+![v1.0b3 board preview](img/v1.0b3.png)
+
+Third testing release.
+
+- Moved BOOTSEL button to the edge of the board for easier access when shield is attached.
+- Moved QSPI flash closer to the MCU.
+- Added Arduino code examples for RGB LED.
+- Rearranged routing of several lines.
+- Added fancy board name label.
+- Added white silkscreen under the LEDs to add light reflection.
+- Moved text on the back of the board a bit.
+
 ### v1.0b2
 
 ![v1.0b2 board preview](img/v1.0b2.png)
