@@ -57,6 +57,7 @@ Third testing release.
 - Added fancy board name label.
 - Added white silkscreen under the LEDs to add light reflection.
 - Moved text on the back of the board a bit.
+- Removed pull-up resistor from SWCLK line.
 
 ### v1.0b2
 
