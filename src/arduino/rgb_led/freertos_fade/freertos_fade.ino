@@ -17,10 +17,10 @@
 
 /* RGB LED pin numbers are defined in the rp2040 SDK as PIN_LED_R, PIN_LED_G and PIN_LED_B when you select RP2040-Eins as a target board */
 
-// Define fade durations (in seconds) for each LED
-const int fadeDurationRed = 1;
-const int fadeDurationGreen = 3;
-const int fadeDurationBlue = 5;
+// Define fade durations (in milliseconds) for each LED
+const int fadeDurationRed = 1000;
+const int fadeDurationGreen = 3000;
+const int fadeDurationBlue = 5000;
 
 void setup() {
   // Initialize LED pins as outputs
@@ -46,13 +46,13 @@ void fadeRedLED(void *pvParameters) {
     // Fade red LED up
     for (int brightness = 0; brightness <= 255; brightness++) {
       analogWrite(PIN_LED_R, brightness);
-      vTaskDelay(fadeDurationRed * 1000 / 255);
+      vTaskDelay(pdMS_TO_TICKS(fadeDurationRed) / 255);
     }
 
     // Fade red LED down
     for (int brightness = 255; brightness >= 0; brightness--) {
       analogWrite(PIN_LED_R, brightness);
-      vTaskDelay(fadeDurationRed * 1000 / 255);
+      vTaskDelay(pdMS_TO_TICKS(fadeDurationRed) / 255);
     }
   }
 }
@@ -62,13 +62,13 @@ void fadeGreenLED(void *pvParameters) {
     // Fade green LED up
     for (int brightness = 0; brightness <= 255; brightness++) {
       analogWrite(PIN_LED_G, brightness);
-      vTaskDelay(fadeDurationGreen * 1000 / 255);
+      vTaskDelay(pdMS_TO_TICKS(fadeDurationGreen) / 255);
     }
 
     // Fade green LED down
     for (int brightness = 255; brightness >= 0; brightness--) {
       analogWrite(PIN_LED_G, brightness);
-      vTaskDelay(fadeDurationGreen * 1000 / 255);
+      vTaskDelay(pdMS_TO_TICKS(fadeDurationGreen) / 255);
     }
   }
 }
@@ -78,13 +78,13 @@ void fadeBlueLED(void *pvParameters) {
     // Fade blue LED up
     for (int brightness = 0; brightness <= 255; brightness++) {
       analogWrite(PIN_LED_B, brightness);
-      vTaskDelay(fadeDurationBlue * 1000 / 255);
+      vTaskDelay(pdMS_TO_TICKS(fadeDurationBlue) / 255);
     }
 
     // Fade blue LED down
     for (int brightness = 255; brightness >= 0; brightness--) {
       analogWrite(PIN_LED_B, brightness);
-      vTaskDelay(fadeDurationBlue * 1000 / 255);
+      vTaskDelay(pdMS_TO_TICKS(fadeDurationBlue) / 255);
     }
   }
 }
