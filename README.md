@@ -79,9 +79,13 @@ Initial release for testing purposes.
 
 Following code examples are available:
 
+Only Adruino SDK:
 - ``src/arduino/rgb_led/rotation_blink.ino`` - blinks RGB LED in rotation individually
 - ``src/arduino/rgb_led/rotation_fade.ino`` - fades RGB LED in rotation individually
 - ``src/arduino/rgb_led/rotation_fade2.ino`` - fades RGB LED in rotation from one color to another
+
+Arduino SDK with FreeRTOS:
+- ``src/arduino/rgb_led/freertos_fade.ino`` - fades RGB LED in rotation individually using FreeRTOS
 
 Please use latest official version of [earlephilhower/arduino-pico](https://github.com/earlephilhower/arduino-pico) and select "RP2040-Eins" board as a target.
 
