@@ -1,4 +1,4 @@
-/* @file rotation_fade
+/**S @file rotation_fade.ino
  * @brief Fade the RGB LED in rotation
  *
  * This program fades the RGB LED in rotation.
