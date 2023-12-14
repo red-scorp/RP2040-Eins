@@ -44,6 +44,8 @@ CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
+This board exists in a single LDO-based flavor. If you want to use a Buck-based version of this board, please contact me directly.
+
 ### v1.0b3
 
 ![v1.0b3 board preview](img/v1.0b3.png)
