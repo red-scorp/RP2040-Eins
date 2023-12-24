@@ -12,7 +12,7 @@
 
 #include <Arduino.h>
 
-#include <RP2040_FreeRTOS.h>
+#include <FreeRTOS.h>
 #include <task.h>
 
 /* RGB LED pin numbers are defined in the rp2040 SDK as PIN_LED_R, PIN_LED_G and PIN_LED_B when you select RP2040-Eins as a target board */
