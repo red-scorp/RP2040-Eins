@@ -50,6 +50,8 @@ This board exists in a single LDO-based flavor. If you want to use a Buck-based 
 
 ![v1.0b4 board preview](img/v1.0b4.png)
 
+Last testing release.
+
 - Fixed SPI connector pins layout
 
 ### v1.0b3
