@@ -1,4 +1,5 @@
-/* @file freertos_fade.ino
+/**
+ * @file freertos_fade.ino
  * @brief Fade the RGB LED in rotation using FreeRTOS
  *
  * This program fades the RGB LED in rotation using FreeRTOS.

@@ -1,4 +1,5 @@
-/**S @file rotation_blink.ino
+/**
+ * @file rotation_blink.ino
  * @brief Blink the RGB LED in rotation
  *
  * This program blinks the RGB LED in rotation.
