@@ -6,7 +6,7 @@
  * The red LED is fades on and then faded out, then the green LED is fades on and then faded out, and then the blue LED is fades on and then faded out.
  * This process is repeated.
  *
- * @date 2021/01/23
+ * @date 2023/12/28
  * @version 1.0.0
  */
 

@@ -7,7 +7,7 @@
  * All of these are done in parallel using several FreeRTOS tasks.
  * This process is repeated.
  *
- * @date 2021/01/23
+ * @date 2023/12/28
  * @version 1.0.0
  */
 
@@ -34,12 +34,13 @@ void setup() {
   xTaskCreate(fadeGreenLED, "Fade Green LED", 128, NULL, 1, NULL);
   xTaskCreate(fadeBlueLED, "Fade Blue LED", 128, NULL, 1, NULL);
 
-  // Start the FreeRTOS scheduler
-  vTaskStartScheduler();
+  // Start the FreeRTOS scheduler is not needed in RP2040 flavour of FreeRTOS library implementation
+  // vTaskStartScheduler();
 }
 
 void loop() {
   // Nothing to do in loop() as the FreeRTOS tasks will handle the LED fading
+  vTaskDelay(pdMS_TO_TICKS(1000)); // wait for a second
 }
 
 void fadeRedLED(void *pvParameters) {
