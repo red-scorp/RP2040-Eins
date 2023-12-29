@@ -42,6 +42,38 @@ Features:
 
 CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
+### Board Pinout
+
+Following pinout is used for the board:
+
+| Board Pin | RP2040 Pin | Function | Notes |
+| --------- | ---------- | -------- | ----- |
+| D0        | GPIO1      | UART0 TX |       |
+| D1        | GPIO0      | UART0 RX |       |
+| D2        | GPIO25     |          |       |
+| D3        | GPIO15     |          |       |
+| D4        | GPIO16     |          |       |
+| D5        | GPIO17     |          |       |
+| D6        | GPIO18     |          |       |
+| D7        | GPIO19     |          |       |
+| D8        | GPIO20     |          |       |
+| D9        | GPIO21     |          |       |
+| D10       | GPIO5      | SS       |       |
+| D11       | GPIO7      | MOSI     |       |
+| D12       | GPIO4      | MISO     |       |
+| D13       | GPIO6      | SCK      |       |
+| D14 A0    | GPIO26     |          |       |
+| D15 A1    | GPIO27     |          |       |
+| D16 A2    | GPIO28     |          |       |
+| D17 A3    | GPIO29     |          |       |
+| D18       | GPIO12     | SDA      |       |
+| D19       | GPIO13     | SCL      |       |
+| D20       | GPIO22     |          |       |
+| D21       | GPIO23     |          |       |
+| LED_R     | GPIO9      |          |       |
+| LED_G     | GPIO10     |          |       |
+| LED_B     | GPIO11     |          |       |
+
 ## Version History
 
 This board exists in a single LDO-based flavor. If you want to use a Buck-based version of this board, please contact me directly.
