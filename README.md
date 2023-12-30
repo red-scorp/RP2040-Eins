@@ -84,8 +84,8 @@ This board exists in a single LDO-based flavor. If you want to use a Buck-based 
 
 Last testing release.
 
-- Fixed SPI connector pins layout
-- Renamed Arduino pins as Dxx an added GPIO pin names at the back as Gxx
+- Fixed SPI connector pins layout.
+- Renamed Arduino pins as Dxx an added GPIO pin names at the back as Gxx.
 
 ### v1.0b3
 
