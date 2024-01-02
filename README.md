@@ -61,7 +61,7 @@ Following pinout is used for the board:
 | D10       | GPIO5      | SS       |       |
 | D11       | GPIO7      | MOSI     |       |
 | D12       | GPIO4      | MISO     |       |
-| D13       | GPIO6      | SCK      |       |
+| D13       | GPIO6      | SCK      | LED   |
 | D14 A0    | GPIO26     |          |       |
 | D15 A1    | GPIO27     |          |       |
 | D16 A2    | GPIO28     |          |       |
@@ -78,7 +78,9 @@ Following pinout is used for the board:
 
 This board exists in a single LDO-based flavor. If you want to use a Buck-based version of this board, please contact me directly.
 
-### v1.0b4
+Each version of the board listed below is tagged in the repository. You can use the tag to checkout the repository to the specific version.
+
+### v1.0b4 - xx.xx.2024
 
 ![v1.0b4 board preview](img/v1.0b4.png)
 
@@ -87,7 +89,7 @@ Last testing release.
 - Fixed SPI connector pins layout.
 - Renamed Arduino pins as Dxx an added GPIO pin names at the back as Gxx.
 
-### v1.0b3
+### v1.0b3 - 21.11.2023
 
 ![v1.0b3 board preview](img/v1.0b3.png)
 
@@ -102,7 +104,7 @@ Third testing release.
 - Moved text on the back of the board a bit.
 - Removed pull-up resistor from SWCLK line.
 
-### v1.0b2
+### v1.0b2 - 04.11.2023
 
 ![v1.0b2 board preview](img/v1.0b2.png)
 
@@ -112,7 +114,7 @@ Second testing release.
 - Moved few components around.
 - Added QR code to the back of the board.
 
-### v1.0b1
+### v1.0b1 - 15.10.2023
 
 ![v1.0b1 board preview](img/v1.0b1.png)
 
