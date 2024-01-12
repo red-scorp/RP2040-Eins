@@ -35,7 +35,7 @@ Features:
 - Dual-core Cortex-M0+ Raspberry Pi RP2040
 - 21 GPIO pins, including 4 analog inputs
 - USB Type-C connector
-- JTAG debugging connector
+- JTAG and DBG debugging connectors
 - LDO-based 5V and 3.3V power supply with a maximum 12V input
 - Supports both SOIC and WSON 16MB flash packages
 - Includes power, user and RGB LEDs
@@ -88,6 +88,7 @@ Last testing release.
 
 - Fixed SPI connector pins layout.
 - Renamed Arduino pins as Dxx an added GPIO pin names at the back as Gxx.
+- Added 2.54mm 3-pin DBG connector.
 
 ### v1.0b3 - 21.11.2023
 
