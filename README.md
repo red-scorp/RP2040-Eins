@@ -80,7 +80,7 @@ This board exists in a single LDO-based flavor. If you want to use a Buck-based 
 
 Each version of the board listed below is tagged in the repository. You can use the tag to checkout the repository to the specific version.
 
-### v1.0b4 - xx.xx.2024
+### v1.0b4 - 09.02.2024
 
 ![v1.0b4 board preview](img/v1.0b4.png)
 
